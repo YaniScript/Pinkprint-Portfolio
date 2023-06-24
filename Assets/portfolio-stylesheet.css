@@ -1,0 +1,199 @@
+:root {
+    --fill-color: #ff05e7;
+    --text-color-onpink: #ffe9fd;
+    --fontsize: 20px;
+    --text-color-reading: #b600a5;
+
+}
+
+* {
+    background-color: #ffb6f8;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#heading-display {
+    height: 115px;
+    padding: 10px;
+    background-color: var(--fill-color);
+}
+
+.bigname {
+    background-color: var(--fill-color);
+    color: #ffe9fd;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-size: 45px;
+    position: absolute;
+    margin-top: 12px;
+    display: inline;
+}
+
+h1::after {
+    font-size: 25px;
+    content: 'YANIscript';
+    /* font-family: 'Courier New', Courier, monospace; */
+    padding: 3px;
+    color: #8ff4ff;
+}
+
+nav {
+    display: flex;
+}
+
+.menu {
+    float: right;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-size: 26px;
+    margin-top: 6px;
+    background-color: var(--fill-color);
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    background-color: var(--fill-color);
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+li a {
+    text-decoration: none;
+    background-color: var(--fill-color);
+    color: var(--text-color-onpink)
+}
+
+a:hover {
+    text-decoration: underline dashed;
+    color:#8ff4ff;
+}
+
+
+
+.click {
+    height:30px;
+    background-color: var(--fill-color);
+    flex-direction: row;
+    padding: 15px;
+    color: var(--text-color-onpink);
+    font-weight: 500;
+}
+
+
+
+h2 {
+    text-align: center;
+    color: var(--text-color-reading)
+}
+
+img {
+    height: 350px;
+    width: 250px;
+    /* margin-bottom: 10px; */
+}
+
+p {
+    text-align: center;
+    color: var(--text-color-reading);
+    font-size: 26px;
+    font-weight: 500;
+}
+
+#Hindsight {
+    text-align: center;
+    font-size: 200%;
+    color: var(--text-color-reading);
+}
+
+section {
+    padding-top: 25px;
+}
+
+ section h2 {
+    display: inline;
+    font-size: 32px;
+    background-color: var(--fill-color);
+    color: var(--text-color-onpink);
+    padding-left: 45px;
+ }
+
+ .body-content {
+    display: block;
+    padding-top: 15px;
+ }
+
+.portfolio {
+    display: block;
+    text-align: center;
+    color: var(--text-color-reading);
+    font-size: 26px;
+    margin: 5px;
+}
+
+.bold-contact {
+    display: inline;
+    font-weight: 700;
+    margin: 20px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    height: 25px;
+    width: 65px;
+}
+
+.phone {
+    position: relative;
+    left: 150px;
+    top: 10px;
+}
+
+.phone:hover {
+    text-decoration: overline;
+    color: var(--text-color-reading);
+}
+
+#spacing {
+    height: 50px;
+
+}
+    
+
+ footer h3 {
+    background-color: var(--fill-color);
+    color: var(--text-color-onpink);
+    font-size: 24px;
+    text-align: center;
+ }
+
+ footer h3::after {
+    content: ' Colossians 3:23';
+    color: #8ff4ff;
+    font-size: 18px;
+ } 
+
+
+ #footer-display {
+    height: 50px;
+    padding: 10px;
+    background-color: var(--fill-color);
+    top: 50px;
+
+ } 
+
+
+ @media screen and (max-width: 992px) {
+     .bigname {
+        color: #faffca;
+     }
+     }
+
+ @media screen and (max-width: 972px) {
+    li {
+        flex-direction: column;
+    }
+ }
