@@ -10,4 +10,6 @@ to wrap/ move into a column. They disappear when the screen gets smaller - behin
 meaningful way. It was malfunctioning when I tried to use it at the end of the document but maybe how I was trying to use it, and the element being at the
 bottom of the page didn't help.
 
-Nonetheless, lovvveeee my portfolio. I know it will only get better, and become more full with projects that I'm proud of.
+Nonetheless, lovvveeee my portfolio. I know it will only get better, and become more full with projects that I'm proud of. 
+
+The portfolio itself is called "YaniScript-Portfolio", and it has been linked to the CSS file already. 
