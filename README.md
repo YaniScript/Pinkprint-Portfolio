@@ -12,4 +12,8 @@ bottom of the page didn't help.
 
 Nonetheless, lovvveeee my portfolio. I know it will only get better, and become more full with projects that I'm proud of. 
 
-The portfolio itself is called "YaniScript-Portfolio", and it has been linked to the CSS file already. 
+The URL to the deployed application is https://yaniscript.github.io/Pinkprint-Portfolio/
+
+The URL of my GitHub portfolio is https://github.com/YaniScript/Pinkprint-Portfolio
+
+The repository for this challenge, as I mentioned is "Pinkprint-Portfolio". Naming this "Pinkprint-Portfolio" reminded me of Nicki Minaj's album called "The Pinkprint". Once you are in the repository, the HTML file is called index.html and the CSS file has already been linked to the HTMl file. I hope you enjoy!
